@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h3 id="heading">CASIO</h3>
+        <form name="calculator">
+            <input type="text" name="display" placeholder="0" id="result">
+            <div id="keyboard">
+                <button type="button" value="x^2" onclick="square()">x <sup>2</sup></button>
+                <input type="button" value="(" onclick="myclick('(')">
+                <input type="button" value=")" onclick="myclick(')')">
+                <button type="button" value="x^3" onclick="cube()">x <sup>3</sup></button>
+                <input type="button" value="%" onclick="percentage()">
+                <input type="button" value="7" onclick="myclick('7')">
+                <input type="button" value="8" onclick="myclick('8')">
+                <input type="button" value="9" onclick="myclick('9')">
+                <input type="button" name="bAC" value="AC" onclick="ac()"><br>
+
+                <input type="button" value="4" onclick="myclick('4')">
+                <input type="button" value="5" onclick="myclick('5')">
+                <input type="button" value="6" onclick="myclick('6')">
+                <input type="button" value="*" onclick="myclick('*')">
+                <input type="button" value="/" onclick="myclick('/')"><br>
+
+                <input type="button" value="1" onclick="myclick('1')">
+                <input type="button" value="2" onclick="myclick('2')">
+                <input type="button" value="3" onclick="myclick('3')">
+                <input type="button" value="+" onclick="myclick('+')">
+                <input type="button" value="-" onclick="myclick('-')"><br>
+
+                <input type="button" value="0" onclick="myclick('0')">
+                <input type="button" value="." onclick="myclick('.')">
+                <input type="button" name="delete" value="DEL" onclick="backspace()">
+                <input type="button" name="equal" value="=" onclick="equalto()">
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

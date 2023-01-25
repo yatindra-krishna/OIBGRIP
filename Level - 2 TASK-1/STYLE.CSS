@@ -1,0 +1,83 @@
+* {
+    margin: 2;
+    padding: 5;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 125vh;
+    background: linear-gradient(top right, #08eded);
+}
+
+#heading {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.container {
+    width: 350px;
+    height: 475px;
+    background: rgba(69, 52, 52, 0.368);
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    height: 90px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #e1e7ea;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#bfbfbf);
+}
+
+#keyboard {
+    margin: 10px 25px 10px 25px;
+    font-size: large;
+}
+
+input[type="button"],
+button {
+    width: 44px;
+    height: 37px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+input[type="button"]:hover,
+button:hover {
+    color: #ffff;
+    background: #000000;
+}
+
+input[name="bAC"] {
+    width: 105px;
+    background: rgb(191, 204, 75);
+    border: rgb(95, 93, 93);
+}
+
+input[name="delete"] {
+    width: 74px;
+    background-color: #e43b3b;
+    border: none;
+}
+
+input[name="equal"] {
+    width: 75px;
+    background-color: #00ff15;
+    border: none;
+}
